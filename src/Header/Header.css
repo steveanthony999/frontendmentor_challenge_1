@@ -1,0 +1,42 @@
+.header > div > p {
+  display: inline-block;
+  width: 500px;
+}
+
+h1,
+p {
+  color: var(--neutral-d-blue);
+}
+
+h1 {
+  font-weight: 200;
+}
+
+span {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  .header {
+    margin-top: 500px;
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    padding: 0 30px;
+    /* font-size: 0.9rem; */
+  }
+
+  .header > div > p {
+    width: 300px;
+  }
+}
